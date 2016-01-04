@@ -1,0 +1,11 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Microsoft.AspNet.Mvc (5.2.3)
+      Microsoft.AspNet.Razor (>= 3.2.3 < 3.3.0)
+      Microsoft.AspNet.WebPages (>= 3.2.3 < 3.3.0)
+    Microsoft.AspNet.Razor (3.2.3)
+    Microsoft.AspNet.WebPages (3.2.3)
+      Microsoft.AspNet.Razor (>= 3.2.3 < 3.3.0)
+      Microsoft.Web.Infrastructure (>= 1.0.0.0)
+    Microsoft.Web.Infrastructure (1.0.0)

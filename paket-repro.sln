@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paket-repro", "paket-repro\paket-repro.csproj", "{9B887E35-5F18-43D1-99F6-8EEFD76B6C62}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{A440F1D8-1CA9-443F-A417-C17CB827385B}"
+	ProjectSection(SolutionItems) = preProject
+		paket.cmd = paket.cmd
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
